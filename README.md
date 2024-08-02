@@ -31,7 +31,7 @@ To install the UCL project, follow these steps:
 2. **Create a virtual environment**:
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate
     ```
 
 3. **Install the required dependencies**:
@@ -41,8 +41,9 @@ To install the UCL project, follow these steps:
 
 ## Usage
 **Train the model**:
+
     ```bash
-    python main.py --config configs/train_config.yaml
+    python main.py
     ```
     
 ## System Requirements
